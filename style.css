@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(13, 5, 5);
+    color: white;
+}
+
+nav {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    margin: 15px;
+}
+
+.image img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.searchbar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.searchbar button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(5, 86, 5);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.searchbar button:hover {
+    background-color: rgb(7, 114, 7);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.content .image img {
+    border-radius: 23px;
+}
+
+.content .text p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sponsored {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.sponsored h2 {
+    background-color: grey;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.sponsored-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.sponsored-content img {
+    width: 40%;
+    border-radius: 13px;
+}
+
+.sponsored-content .disp1 {
+    text-align: center;
+    border-radius: 15px;
+}
+
+.sponsored-content .disp1 p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+
+.disp1 img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+footer {
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+}
+
+.categories {
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.categories h2 {
+    background-color: grey;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 90%;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.category-item {
+    text-align: center;
+    cursor: pointer;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.category-item:hover {
+    transform: translateY(-10px);
+}
+
+.category-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-bottom: 10px;
+}
+
+.category-item img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.category-item p {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.newsletter {
+    background-color: #222;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.newsletter-content h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.newsletter-content p {
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.newsletter input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    flex: 1;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(5, 86, 5);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: rgb(7, 114, 7);
+}
