@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON Table with Modal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>User Data Table</h2>
+
+<button id="openModal">Add User</button>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Mobile</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+  <tbody id="tableBody"></tbody>
+</table>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <h3>Add User</h3>
+    <input type="text" id="name" placeholder="Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="text" id="mobile" placeholder="Mobile">
+    <input type="number" id="age" placeholder="Age">
+    <button id="submitForm">Submit</button>
+    <button id="closeModal">Close</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
